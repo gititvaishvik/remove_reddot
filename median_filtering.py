@@ -141,7 +141,7 @@ class VideoRestorer:
 
 # Main function
 def main():
-    video_path = r"C:\Users\Mantra\Downloads\APRIL Technical Assessment.mp4"
+    video_path = "cctv_feed.mp4"
     restorer = VideoRestorer(video_path)
     restorer.process_video()
 
